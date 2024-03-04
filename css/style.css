@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: #F9F4EF;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-sushi{
+    height: 100px;
+    width: 25%;
+    font-family: Roboto;
+    display: flex;
+    background-color: #F9F4EF;
+    flex-direction: row;
+    
+
+}
+.logo{
+    height: 100px;
+    width: 100px;   
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/logo.png);    
+}
+
+.suchi-bar{
+    height: 100px;
+    width: 75%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;    
+}
+.a1{
+   font-family: Roboto;
+   margin-left: 20px;
+   
+}
+.a2{
+    font-family: Roboto;
+    margin-left: 20px;   
+}
+.a3{
+    font-family: Roboto;
+    margin-left: 20px;
+}
+
+.foto{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(/images/suchi\bar.jpg);
+}
+
+.register_form{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 300px;    
+    background-color: #605e5e;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.row{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+ 
