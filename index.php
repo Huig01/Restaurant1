@@ -23,10 +23,15 @@
    <div class="foto2"></div>
    <div class="midden">
     <div class="restaurant">
-
+        <div class="a4">
+            <a>Sushi bar & restaurant Nijmegen<a>
+        </div>
+        <div class="a5">
+            <a>In het historisch centrum van de oudste stad van Nederland ligt de Molenstraat. Het hele jaar door is deze straat de place to be voor gezellige evenementen. Je vindt hier ook een scala aan restaurants, waaronder ons Aziatisch restaurant Sushi Bar en Restaurant. Hier kun je genieten van een all you can eat arrangement bestaande uit heerlijke sushi en grillgerechten. Zien we je snel voor een lunch of diner?<a>
+        </div>
     </div>
     <div class="reserveren">
-        
+
     </div>
    </div>
     
