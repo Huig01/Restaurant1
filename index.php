@@ -31,7 +31,12 @@
         </div>
     </div>
     <div class="reserveren">
+    <div class="a5">
 
+    </div>
+    <div class="a6">
+        
+    </div>
     </div>
    </div>
     
