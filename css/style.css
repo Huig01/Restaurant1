@@ -10,25 +10,22 @@ nav{
     display: flex;
     flex-direction: row;
 }
-
-.logo-sushi{
+.logo_sushi{
     height: 100px;
     width: 25%;
     font-family: Roboto;
     display: flex;
-    background-color: #F9F4EF;
     flex-direction: row;
-    
-
+    background-color: #F9F4EF;
 }
-.logo{
+
+.logo1{
     height: 100px;
-    width: 100px;   
+    width: 100px;
     background-repeat: no-repeat;
     margin-left: 50px;
-    background-position: center;
+    background-image: url(/images/logo.png);
     background-size: cover;
-    background-image: url(/images/logo.png);    
 }
 
 .suchi-bar{
@@ -52,27 +49,34 @@ nav{
     margin-left: 20px;
 }
 
-.foto{
-    height: 500px;
+.foto2{    
+    height: 700px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-image: url(/images/suchi\bar.jpg);
+    background-repeat: no-repeat;    
+    background-size: cover;
+    background-position: 0px;
+    background-image: url(/images/suchi\ bar.jpg);
 }
 
-.register_form{
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    height: 100px;
-    width: 300px;    
-    background-color: #605e5e;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-.row{
-    height: 100px;
-    width: 200px;
+.midden{
+    height: 700px;
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
+.restaurant{
+    height: 700px;
+    width: 50%;
+    background-color: #EADDCF;
+}
+.reserveren{
+    height: 700px;
+    width: 50%;
+    background-color: #F9F4EF;
+}
+
+
+
  

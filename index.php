@@ -11,16 +11,25 @@
 </head>
 <body>
    <nav>
-    <div class="logo-sushi">
-        <div class="logo"></div>
-    </div>
+    <div class="logo_sushi">
+        <div class="logo1"></div>
+    </div>     
     <div class="suchi-bar">
         <div class="a1"><a href=""> RESTAURANT </a></div>
         <div class="a2"><a href=""> BESTELEN </a></div>
         <div class="a3"><a href=""> MENU  </a> </div>
     </div>   
-   </nav>
-   <div class="foto"></div>
+   </nav>   
+   <div class="foto2"></div>
+   <div class="midden">
+    <div class="restaurant">
+
+    </div>
+    <div class="reserveren">
+        
+    </div>
+   </div>
+    
    <form class ='register_form' name = "register" method="POST" action="pages/register.php">
     <h3>Register now!</h3>
     <div class = "row">
