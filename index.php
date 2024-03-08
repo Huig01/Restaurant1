@@ -66,10 +66,10 @@
               <a>Hoeveel personen</a>              
             </div> 
             <div class="a9">
-              <a>TAAL</a>              
+              <a>DATUM</a>              
             </div> 
             <div class="a10">
-              <a>TAAL</a>              
+              <a>Tijden</a>              
             </div>                  
         </div>
     </div>

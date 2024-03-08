@@ -183,7 +183,7 @@ nav{
 }
 
 .a7{
-    height: 100px;
+    height: 25x;
     width: 100px;
     display: flex;
     background-color: blueviolet;
@@ -192,15 +192,15 @@ nav{
  
 }
 .a8{
-    height: 50px;
-    width: 100px;
+    height: 25px;
+    width: 150px;
     display: flex;
     font-family: Inter;
     flex-direction: row;
    
 }
 .a9{
-    height: 50px;
+    height: 25px;
     width: 100px;
     display: flex;
     font-family: Inter;
@@ -208,7 +208,7 @@ nav{
     
 }
 .a10{
-    height: 50px;
+    height: 25px;
     width: 100px;
     display: flex;
     font-family: Inter;
