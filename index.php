@@ -61,7 +61,16 @@
         <div class="block-reserveren">
             <div class="a7">
               <a>TAAL</a>              
-            </div>           
+            </div>
+            <div class="a8">
+              <a>Hoeveel personen</a>              
+            </div> 
+            <div class="a9">
+              <a>TAAL</a>              
+            </div> 
+            <div class="a10">
+              <a>TAAL</a>              
+            </div>                  
         </div>
     </div>
 </body>

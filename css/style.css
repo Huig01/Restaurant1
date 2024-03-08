@@ -176,40 +176,42 @@ nav{
     height: 500px;
     width: 475px;
     margin-top: 5px;
+    display: flex;
+    flex-direction: column;
     font-family: Inter;
     background-color: blueviolet;
 }
 
 .a7{
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
     display: flex;
     background-color: blueviolet;
     font-family: Inter;
     flex-direction: row;
-    margin-bottom: 5px;
+ 
 }
 .a8{
-    height: 100px;
+    height: 50px;
     width: 100px;
     display: flex;
     font-family: Inter;
     flex-direction: row;
-    margin-bottom: 5px;
+   
 }
 .a9{
-    height: 100px;
+    height: 50px;
     width: 100px;
     display: flex;
     font-family: Inter;
     flex-direction: row;
-    margin-bottom: 5px;
+    
 }
 .a10{
-    height: 100px;
+    height: 50px;
     width: 100px;
     display: flex;
     font-family: Inter;
     flex-direction: row;
-    margin-bottom: 5px;
+   
 }
