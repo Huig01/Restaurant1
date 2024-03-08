@@ -48,6 +48,14 @@ nav{
     font-family: Roboto;
     margin-left: 20px;
 }
+.a11{
+    font-family: Roboto;
+    margin-left: 20px;
+}
+.a12{
+    font-family: Roboto;
+    margin-left: 20px;
+}
 
 .foto2{    
     height: 700px;
@@ -69,16 +77,139 @@ nav{
 .restaurant{
     height: 700px;
     width: 50%;
+    display: flex;
+    flex-direction: column;
     background-color: #EADDCF;
 }
 .reserveren{
     height: 700px;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #F9F4EF;
 }
 
 .a4{
-    
+    height: 100px;
+    width: 25%;
+    margin-left: 30px;
+    font-family: Inter;
+    margin-top: 50px;
+    font-size: 20px;
 }
 
+.a5{
+    font-family: Inter;
+    font-size: 15px;
+    height: 100px;
+    margin-left: 30px;
+    width: 75%;
+}
+
+.onder-midden{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 15px;
+    align-items: center;
+    background-color: #EADDCF;
+}
+
+.prijzen{
+    height: 65px;
+    width: 125px;
+    margin-right: 45px;
+    font-family: Inter;
+    background-color: #F9F4EF;
+}
+.menu{
+    height: 65px;
+    width: 125px;
+    margin-right: 45px;
+    font-family: Inter;
+    background-color: #F9F4EF;
+}
+.tijden{
+    height: 65px;
+    width: 125px;
+    font-family: Inter;
+    background-color: #F9F4EF;
+}
  
+.onder-midden2{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: #EADDCF;
+}
+.Contact{
+    height: 65px;
+    width: 125px;
+    margin-right: 45px;
+    font-family: Inter;
+    background-color: #F9F4EF;
+}
+ 
+.Deals{
+    height: 65px;
+    width: 125px;
+    font-family: Inter;
+    background-color: #F9F4EF;
+}
+ .a6{
+    height: 100px;
+    width: 25%;
+    justify-content: center;
+    margin-left: 55px;
+    font-family: Inter;
+    margin-top: 50px;
+    font-size: 20px;
+ }
+.block-reserveren{
+    height: 500px;
+    width: 475px;
+    margin-top: 5px;
+    font-family: Inter;
+    background-color: blueviolet;
+}
+
+.a7{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    background-color: blueviolet;
+    font-family: Inter;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+.a8{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    font-family: Inter;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+.a9{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    font-family: Inter;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+.a10{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    font-family: Inter;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
