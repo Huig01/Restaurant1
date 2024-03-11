@@ -13,17 +13,11 @@
     <title>Document</title>
 </head>
 <body>
-   <nav>
-    <div class="logo_sushi">
-        <div class="logo1"></div>
-    </div>     
-    <div class="suchi-bar">
-        <div class="a1"><a href=""> LOGIN  </a> </div>
-        <div class="a1"><a href=""> RESTAURANT </a></div>
-        <div class="a2"><a href=""> BESTELEN </a></div>
-        <div class="a11"><a href=""> MENU  </a> </div>
-        <div class="a12"><a href="index.php"> HOME  </a> </div>
-    </div>   
-   </nav>
+   <form action='login_logic.php' name='login_logic' method="POST">
+    <label>Username: </label>
+    <input type="text" name="username" placeholder="Username" required>
+    <label>Password: </label>
+    <input type="password" name="password" placeholder="Password" required>
+    <input type= "submit" value="Login">
 </body>
 </html>   
