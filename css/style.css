@@ -215,3 +215,127 @@ nav{
     flex-direction: row;
    
 }
+
+.loggin_block{
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    background-color: #EADDCF;
+}
+
+.loggin_2block{
+    height: 900px;
+    width: 60%;
+    margin-top: 100px;
+    
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    background-color: #F9F4EF;
+}
+
+input{
+    height: 50px;
+    width: 700px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+label{
+    font-family: Inter;
+}
+
+.label_name{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 15px;
+}
+.label_password{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.input_login{
+    margin-top: 50px;
+}
+h1{
+    font-family: Inter;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.remember_password_block{
+    height: 30px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: -30px;
+  
+}
+.remember_password{
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+       
+    background-color: #FFFFFF;
+}
+.forgot_password{
+    height: 20px;
+    width: 130px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: #48CEEC;  
+
+}
+
+.a13{
+    margin-left: -370px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: bold;
+}
+.password_bol{
+    height: 20px;
+    width: 20px;
+    border-radius: 500px;
+    margin-left: 5px;
+    background-color: #CBCBCB;
+}
+
+.or{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    font-family: Inter;
+    align-items: center;
+    font-size: 13px;
+    justify-content: center;
+    margin-top: 20px;  
+    margin-bottom: -15px;  
+}
+.google_bol2{
+    height: 50px;
+    width: 50px;
+    border-radius: 500px;
+    margin-left: 5px;
+    background-color: #CBCBCB;
+}
+
+
+.input_login_facebook{
+    margin-top: 50px;
+}
+.input_login_Google{
+    margin-top: 50px;
+}
