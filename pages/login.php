@@ -18,10 +18,10 @@
         <div class="logo1"></div>
     </div>     
     <div class="suchi-bar">
-        <div class="a1"><a href="pages/login.php"> LOGIN  </a> </div>
+        <div class="a1"><a href=""> LOGIN  </a> </div>
         <div class="a2"><a href=""> RESTAURANT </a></div>
         <div class="a3"><a href=""> BESTELEN </a></div>
-        <div class="a11"><a href=""> MENU  </a> </div>
+        <div class="a11"><a href="pages/menu.php"> MENU  </a> </div>
         <div class="a12"><a href="../index.php"> HOME  </a> </div>
     </div>   
    </nav>
@@ -54,7 +54,7 @@
                  <input type= "submit" value="Login">
             </div>
             <div class="or">
-            <hr width ="35%" color="black"/><a>Or</a><hr width ="35%" color="black"/>
+            <hr width ="40%" color="black"/><a>Or</a><hr width ="40%" color="black"/>
             </div>
            
             <div class= "input_login_facebook">            

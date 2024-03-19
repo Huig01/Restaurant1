@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 nav{
     height: 100px;
     width: 100%;
@@ -10,6 +11,7 @@ nav{
     display: flex;
     flex-direction: row;
 }
+
 .logo_sushi{
     height: 100px;
     width: 25%;
@@ -35,23 +37,27 @@ nav{
     flex-direction: row-reverse;
     align-items: center;    
 }
+
 .a1{
    font-family: Roboto;
-   margin-left: 20px;
-   
+   margin-left: 20px;   
 }
+
 .a2{
     font-family: Roboto;
     margin-left: 20px;   
 }
+
 .a3{
     font-family: Roboto;
     margin-left: 20px;
 }
+
 .a11{
     font-family: Roboto;
     margin-left: 20px;
 }
+
 .a12{
     font-family: Roboto;
     margin-left: 20px;
@@ -92,11 +98,14 @@ nav{
 
 .a4{
     height: 100px;
-    width: 25%;
+    width: 30%;
     margin-left: 30px;
     font-family: Inter;
+    font-weight: cursive;
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 20px;   
+    font-style: italic;
+    font-weight: bold; 
 }
 
 .a5{
@@ -125,6 +134,7 @@ nav{
     font-family: Inter;
     background-color: #F9F4EF;
 }
+
 .menu{
     height: 65px;
     width: 125px;
@@ -132,6 +142,7 @@ nav{
     font-family: Inter;
     background-color: #F9F4EF;
 }
+
 .tijden{
     height: 65px;
     width: 125px;
@@ -149,6 +160,7 @@ nav{
     margin-top: 15px;
     background-color: #EADDCF;
 }
+
 .Contact{
     height: 65px;
     width: 125px;
@@ -163,15 +175,18 @@ nav{
     font-family: Inter;
     background-color: #F9F4EF;
 }
- .a6{
+
+.a6{
     height: 100px;
     width: 25%;
     justify-content: center;
+    font-weight: bold;
     margin-left: 55px;
     font-family: Inter;
     margin-top: 50px;
     font-size: 20px;
- }
+}
+
 .block-reserveren{
     height: 500px;
     width: 475px;
@@ -191,6 +206,7 @@ nav{
     flex-direction: row;
  
 }
+
 .a8{
     height: 25px;
     width: 150px;
@@ -199,6 +215,7 @@ nav{
     flex-direction: row;
    
 }
+
 .a9{
     height: 25px;
     width: 100px;
@@ -207,6 +224,7 @@ nav{
     flex-direction: row;
     
 }
+
 .a10{
     height: 25px;
     width: 100px;
@@ -228,8 +246,7 @@ nav{
 .loggin_2block{
     height: 900px;
     width: 60%;
-    margin-top: 100px;
-    
+    margin-top: 100px;   
     display: flex;
     flex-direction: column;    
     align-items: center;
@@ -242,6 +259,7 @@ input{
     border-radius: 20px;
     background-color: #FFFFFF;
 }
+
 label{
     font-family: Inter;
 }
@@ -251,13 +269,16 @@ label{
     width: 25px;
     margin-bottom: 15px;
 }
+
 .label_password{
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
 .input_login{
     margin-top: 50px;
 }
+
 h1{
     font-family: Inter;
     margin-top: 100px;
@@ -276,6 +297,7 @@ h1{
     margin-bottom: -30px;
   
 }
+
 .remember_password{
     height: 30px;
     width: 70px;
@@ -286,6 +308,7 @@ h1{
        
     background-color: #FFFFFF;
 }
+
 .forgot_password{
     height: 20px;
     width: 130px;
@@ -305,6 +328,7 @@ h1{
     font-size: 12px;
     font-weight: bold;
 }
+
 .password_bol{
     height: 20px;
     width: 20px;
@@ -316,6 +340,7 @@ h1{
 .or{
     height: 20px;
     width: 100%;
+    font-weight: bold;
     display: flex;
     font-family: Inter;
     align-items: center;
@@ -324,6 +349,7 @@ h1{
     margin-top: 20px;  
     margin-bottom: -15px;  
 }
+
 .google_bol2{
     height: 50px;
     width: 50px;
@@ -332,10 +358,19 @@ h1{
     background-color: #CBCBCB;
 }
 
-
 .input_login_facebook{
-    margin-top: 50px;
+    margin-top: 50px;   
 }
+
 .input_login_Google{
     margin-top: 50px;
+}
+
+hr{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.menu_sushi{
+    font-weight: bold;
 }
