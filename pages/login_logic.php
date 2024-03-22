@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 if(empty($_POST["username"]) || empty($_POST["password"]))
 {
     header("Location: login.php");
@@ -9,8 +10,11 @@ if(empty($_POST["username"]) || empty($_POST["password"]))
  $username =  $_POST["username"];
  $password =  $_POST["password"];
 
+$stmt = $connection->prepare("SELECT * FROM users WHERE username=:user AND password=:pass");
+$stmt->execute(['user' => $username, 'pass' => $password]);
+$user = $stmt->fetch();
 
-if ($username == "admin" && $password == "admin")
+if (!$user)
 {
     $_SESSION["user"] = $username;
     header("Location: dashboard.php");
