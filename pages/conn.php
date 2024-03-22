@@ -13,8 +13,7 @@ $options = [
 
 ];
 try{
-    $connection = new PDO($dsn, $user, $pass, $options);
-   
+    $connection = new PDO($dsn, $user, $pass, $options);   
 }catch (\PDOExpection $e){
     echo "Connection failed: " . $e->getMessage();
 }
