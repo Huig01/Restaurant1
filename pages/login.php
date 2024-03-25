@@ -24,7 +24,7 @@
         <div class="a11"><a href="pages/menu.php"> MENU  </a> </div>
         <div class="a12"><a href="../index.php"> HOME  </a> </div>
     </div>   
-   </nav>
+   </nav>  
    <div class="loggin_block">
     <div class="loggin_2block">
         <h1> Login </h1>

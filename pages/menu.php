@@ -27,7 +27,7 @@
    </nav>
    <?php  
    include "../pages/conn.php";
-   
+
    $stmt = $connection->query("SELECT * FROM products");
    while ($row = $stmt-> fetch()){
     echo "<div class = menu_sushi>";
