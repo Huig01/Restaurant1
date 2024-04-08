@@ -372,7 +372,27 @@ hr{
 }
 
 .menu_sushi{
-    font-weight: bold;
-    margin-top: 5px;   
-    
+    font-weight: bold;    
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    background-color: beige;    
+}
+
+.a14{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-left: -510px;
+    margin-top: 50px;    
+}
+.menu_Block{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EADDCF;
 }

@@ -13,33 +13,31 @@
     <title>Document</title>
 </head>
 <body>
-   <nav>
+<nav>
     <div class="logo_sushi">
         <div class="logo1"></div>
     </div>     
     <div class="suchi-bar">
-        <div class="a1"><a href="login.php"> LOGIN  </a> </div>
+        <div class="a1"><a href=""> LOGIN  </a> </div>
         <div class="a2"><a href=""> RESTAURANT </a></div>
-        <div class="a3"><a href=""> PRODUCTEN </a></div>
-        <div class="a11"><a href=""> MENU  </a> </div>
+        <div class="a3"><a href=""> BESTELEN </a></div>
+        <div class="a11"><a href="menu.php"> MENU  </a> </div>
         <div class="a12"><a href="../index.php"> HOME  </a> </div>
     </div>   
-   </nav>
-   <div class="menu_Block">
-   <?php  
-   include "../pages/conn.php";
+</nav> 
+<div class="products">
+    <?php
+    $stmt = $connection->prepare("SELECT * FROM products");
+    $stmt->exexute();
+    $data = $stmt->fetchAll();
 
-   $stmt = $connection->query("SELECT * FROM products");
-   while ($row = $stmt-> fetch()){
-    echo "<div class = menu_sushi>";
-  
-    echo $row['naam']."<br />\n";
-    echo $row['prijs']."<br />\n";
-    echo $row['omschrijving']."<br />\n";   
-    echo "</div>";  
-     
-   }
-   ?>    
-   </div>   
+    foreach ($data as $row) {
+        echo $row['naam'];
+        echo "<a href='pages/product_update.php?id=".$row['id']"'>Update</a>";
+        echo "<a href='pages/product_delete.php?id=".$row['id']"'>Delete</a>";
+    }
+    ?>
+    
+</div>
 </body>
 </html>
