@@ -1,3 +1,8 @@
+<?php
+include "conn.php";
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,16 +33,15 @@
 <div class="products">
     <?php
     $stmt = $connection->prepare("SELECT * FROM products");
-    $stmt->exexute();
+    $stmt->execute();
     $data = $stmt->fetchAll();
 
     foreach ($data as $row) {
         echo $row['naam'];
-        echo "<a href='pages/product_update.php?id=".$row['id']"'>Update</a>";
-        echo "<a href='pages/product_delete.php?id=".$row['id']"'>Delete</a>";
+        echo "<a href='pages/product_update.php?id=".$row['id']."'>Update</a>";
+        echo "<a href='pages/product_delete.php?id=".$row['id']."'>Delete</a>";
     }
-    ?>
-    
+    ?>    
 </div>
 </body>
 </html>
