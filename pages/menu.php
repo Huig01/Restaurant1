@@ -20,7 +20,7 @@
     <div class="suchi-bar">
         <div class="a1"><a href="login.php"> LOGIN  </a> </div>
         <div class="a2"><a href=""> RESTAURANT </a></div>
-        <div class="a3"><a href=""> PRODUCTEN </a></div>
+        <div class="a3"><a href="products.php"> PRODUCTEN </a></div>
         <div class="a11"><a href=""> MENU  </a> </div>
         <div class="a12"><a href="../index.php"> HOME  </a> </div>
     </div>   

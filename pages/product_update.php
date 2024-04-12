@@ -2,9 +2,9 @@
 session_start();
 include 'conn.php';
 
-$stmt = $connection->prepare(SELECT * FROM products EHRE id=:id);
-$stmt ->execure(['id' => $_GET['id']]);
-$product = $stmt ->fetch();
+$stmt = $connection->prepare("SELECT * FROM products WHERE id=:id");
+$stmt ->execute(['id' => $_GET['id']]);
+$product = $stmt->fetch();
 
 ?>
 <!DOCTYPE html>

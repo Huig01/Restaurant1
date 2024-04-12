@@ -20,7 +20,7 @@
     <div class="suchi-bar">
         <div class="a1"><a href=""> LOGIN  </a> </div>
         <div class="a2"><a href=""> RESTAURANT </a></div>
-        <div class="a3"><a href=""> BESTELEN </a></div>
+        <div class="a3"><a href="products.php"> PRODUCTEN </a></div>
         <div class="a11"><a href="menu.php"> MENU  </a> </div>
         <div class="a12"><a href="../index.php"> HOME  </a> </div>
     </div>   
@@ -55,8 +55,7 @@
             </div>
             <div class="or">                
             <hr width ="40%" color="black"/><a>Or</a><hr width ="40%" color="black"/>
-            </div>
-           
+            </div>           
             <div class= "input_login_facebook">            
                 <input type="submit" value = "Login in Facebook"> 
             </div>
@@ -65,6 +64,6 @@
             </div>
         </form>
         <div class="a14"><a href="register.php"> Account aanmaken  </a> </div>  
-    </div>          
+    </div>             
 </body>
 </html>   

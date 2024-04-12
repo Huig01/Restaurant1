@@ -20,6 +20,7 @@ if (!$user)
     header("Location: login.php");   
 }else 
 {
+    
     $_SESSION["user"] = $username;
     header("Location: dashboard.php");    
 }

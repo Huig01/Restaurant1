@@ -1,9 +1,9 @@
 <?php
  include 'conn.php';
  $data = [
-    'naam' => $_POST['naam'];
-    'prijs' => $_POST['prijs'];
-    'id' => $_POST['id_product'];
+    'naam' => $_POST['naam'],
+    'prijs' => $_POST['prijs'],
+    'id' => $_POST['id_product']
  ];
 
  $sql = "UPDATE products SET naam=:naam, prijs=:prijs WHERE id=:id";
