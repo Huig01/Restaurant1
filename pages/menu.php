@@ -26,6 +26,8 @@
     </div>   
    </nav>
    <div class="menu_Block">
+   <div class="menu_sushi_block">
+    
    <?php  
    include "../pages/conn.php";
 
@@ -39,7 +41,8 @@
     echo "</div>";  
      
    }
-   ?>    
+   ?> 
+   </div>   
    </div>   
 </body>
 </html>

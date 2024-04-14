@@ -73,8 +73,24 @@ include "pages/conn.php";
             </div> 
             <div class="a10">
               <a>Tijden</a>              
-            </div>                  
-        </div>
+            </div> 
+            <div class="tijden_reservern_tot">
+                <div class="a15">
+                    <a>16:00</a>
+                </div>
+                <div class="a16">
+                    <a>16:30</a>
+                </div>
+                <div class="a17">
+                    <a>17:00</a>
+                </div>
+            </div>
+            <div class="reserveren_tafel">
+                <div class="tafel">
+                    <a>RESERVEER TAFEL</a>
+                </div>
+            </div>              
+        </div>        
     </div>
 </body>
 </html>
