@@ -2,7 +2,7 @@
 session_start();
 include 'conn.php';
 unset($_SESSION["username"]);
-session_destroy();
+
 if(empty($_POST["username"]) || empty($_POST["password"]))
 {
     header("Location: login.php");
@@ -26,5 +26,6 @@ if (!$user)
     $_SESSION["user"] = $username;
     header("Location: dashboard.php");    
 }
+echo $_SESSION["username"];
 ?>
 
