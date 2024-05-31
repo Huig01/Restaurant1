@@ -1,31 +1,18 @@
 <?php
 session_start();
-include 'conn.php';
-unset($_SESSION["username"]);
-
-if(empty($_POST["username"]) || empty($_POST["password"]))
-{
+if(empty($_POST['username']) || empty($_POST['password'])) {
     header("Location: login.php");
     exit();
 }
-
- $username =  $_POST["username"];
- $password =  $_POST["password"];
-
- $stmt = $connection->prepare("SELECT * FROM users WHERE username=:user AND password=:pass");
- $stmt->execute(['user' => $username, 'pass' => $password]);
- $user = $stmt->fetch();
  
-
-if (!$user)
-{
-    header("Location: login.php");   
-}else 
-{
-    
+$username = $_POST["username"];
+$email = $_POST["email"];
+$password = $_POST["password"];
+ 
+if ($username == "admin" && $email == "admin" && $password == "admin") {
     $_SESSION["user"] = $username;
-    header("Location: dashboard.php");    
-}
-echo $_SESSION["username"];
+    header("Location: dashboard.php");
+ } else {
+    header("Location: login.php");
+ }
 ?>
-
