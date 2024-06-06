@@ -1,0 +1,201 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+.header{
+    height: 200px;
+    width: auto;
+    background-color: #5BB9EE;
+}
+
+.logo{
+    font-family: Roboto Slab;
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 150px;
+}
+
+.header-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+}
+.home-button{
+    height: 50px;
+    width: 100px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.home-button-text{
+    color: #000000;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.logout-button{
+    height: 50px;
+    width: 150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.logout-button-text{
+    color: #000000;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-size: 30px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.login-button{
+    height: 50px;
+    width: 100px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.register-button{
+    height: 50px;
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.login_nav{
+    height: 200px;
+    width: 200px;
+    background-color: #5BB9EE;
+}
+
+.loggin_block2{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;    
+    background-image: url(/img/sea.jpg);
+}
+
+.loggin_2block2{
+    height: 750px;
+    width: 50%;
+    margin-top: 100px;   
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    font-family: Inter;
+    background-color: #FFC559;
+    border-radius: 20px;
+}
+
+h1{
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+label{   
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 17px;
+}
+.label_name2{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.label_password2{
+     height: 25px;
+    width: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.label_Email2{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+input{
+    height: 50px;
+    width: 375px;    
+    border-radius: 20px;
+}
+
+.loggin_block{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;    
+    background-image: url(/img/sea.jpg);
+}
+
+.loggin_2block{
+    height: 750px;
+    width: 50%;
+    margin-top: 100px;   
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    font-family: Inter;
+    background-color: #FFC559;
+    border-radius: 20px;
+}
+
+.label_name{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.label_password{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.label_Email{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.input_login{
+    margin-top: 50px;
+}
+
+.input_register{
+    margin-top: 50px;
+}
+
+
+
+
+
