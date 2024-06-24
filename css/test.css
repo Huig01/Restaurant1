@@ -48,14 +48,13 @@
     height: 50px;
     width: 150px;
     background-color: #ffffff;
+    font-family: Roboto Slab;
     border-radius: 10px;
     margin-left: 150px;
     margin-top: 40px;
 }
 
 .logout-button-text{
-    color: #000000;
-    text-align: center;
     font-family: Roboto Slab;
     font-size: 30px;
     font-weight: 500;
@@ -67,23 +66,253 @@
     width: 100px;
     background-color: #ffffff;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-left: 150px;
     margin-top: 40px;
 }
 
+.login-button-text{
+    color: #000000;
+    text-align: center;
+    font-family: Roboto Slab;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 700;   
+    text-decoration: none;
+}
+
+a{   
+    color: black;
+    text-decoration: none;   
+}
+
+
 .register-button{
     height: 50px;
-    width: 250px;
+    width: 230px;
     background-color: #ffffff;
     border-radius: 10px;
     margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 40px;
 }
+
+
+.register-button-text{
+    color: #000000;
+    text-align: center;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 700;  
+}
+
 
 .login_nav{
     height: 200px;
     width: 200px;
     background-color: #5BB9EE;
+}
+.info-page{
+    height: 1200px;
+    width: auto;
+    background-image: url(../img/sea.jpg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+
+.tabel1{
+    height: 800px;
+    width: 600px;
+    border-radius: 20px;
+    background-color: #FFBD44;
+}
+
+.tabel1-header-text{
+    color: #000000;
+    text-align: center;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.mini-info-text1{
+    color: #000000;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.mini-info-text2{
+    color: #000000;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.mini-info-text3{
+    color: #000000;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.mini-info-text4{
+    color: #000000;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.input-stroke{
+    height: 70px;
+    width: 550px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.search-vacations-button{
+    height: 100px;
+    width: 550px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.search-vacations-button-text{
+    color: #000000;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    gap: 50px;
+}
+.last-minute-deal-text{
+    color: #000000;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.tabel2{
+    height: 100px;
+    width: 300px;
+    background-color:#FFBD44 ;
+    border-radius: 20px;
+}
+
+.mini-info-text5{
+    color: #000000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.footer{
+    height: 200px;
+    width: auto;
+    background-color: #5BB9EE;
+}
+
+.footer-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.row3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+.copyright{
+    height: 50px;
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 70px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: 1000px;
+}
+.socials1{
+    height: 50px;
+    width: 50px;
+    margin-top: 60px;
+    background-image: url(../img/Facebook.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+
+.socials2{
+    height: 50px;
+    width: 50px;
+    margin-top: 60px;
+    background-image: url(../img/Instagram.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+
+.socials3{
+    height: 50px;
+    width: 50px;
+    margin-top: 60px;
+    border-radius: 30px;
+    background-image: url(../img/Youtube.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
 }
 
 .loggin_block2{
@@ -195,7 +424,307 @@ input{
     margin-top: 50px;
 }
 
+.vakantie_block
+{
+    height: auto;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+.hr1{    
+    width: 1687px;
+    border-style: 1px solid red;
+}
+
+
+.hr2{    
+    margin-top: 5px;
+    width: 100%;
+    border-style: 15px solid red;
+}
+
+.vakantie_block2
+{
+    height: 1500px;
+    width: 100%;
+    background-color: plum;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.vakantie_block_links
+{
+    height: 1500px;
+    width: 35%;
+    margin-right: 50px;
+    
+}
 
 
 
+.a1{
+    height: 40px;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
 
+.vakantie_block_recht
+{
+    height: 1500px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    background-color: purple;  
+}
+
+.vakantie-row{
+    height: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+.foto_vakantie{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    background-color: #2196F3;
+}
+
+.ft_vakantie1
+{
+    margin-top: 50px;    
+    height: 500px;
+    width: 500px;
+    background-image: url(/img/boekhuis.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.rating_block
+{
+    height: 65px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    background-color: #2196F3;
+}
+
+
+.reiskeuze_block{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 450px;
+    width: 375px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFBD44;
+}
+i{
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.Reisgezelschap
+{
+    margin-top: 35px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2196F3;
+}
+.voordeligste_datum
+{
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2196F3;
+}
+.Reisduur
+{
+    margin-bottom: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2196F3;
+}
+.Land
+{
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2196F3;
+}
+.Bestemming
+{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #2196F3;
+}
+.vervoer2{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 60px;
+    width: 375px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 1000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFD485;
+}
+.vervoer-kleineblock1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 40%;
+    font-size: 13px;
+    background-color: #FFBD44;
+}
+
+.vervoer-kleineblock2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 40%;
+    font-size: 13px;
+    margin-left: 5px;
+    background-color: #FFD485;        
+}
+
+.checkbox-vakantie-block
+{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 800px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-color: red;
+}
+
+.landencheckbox
+{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 70%;
+    background-color: purple;
+}
+.rating{
+    height: 40px;
+    width: 70px;
+    background-color: #FFBD44;
+}
+
+.plaatsen
+{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFBD44;
+}
+.plaatsen-nederland
+{
+    
+    height: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFBD44;
+}
+
+.landen-block
+{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.hotel_name_block{
+    height: 500px;
+    width: 40%;
+    margin-left: 50px;
+    background-color: red;
+}
+
+.hotel-name2{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #2196F3;    
+}
+.hotel_expertiese
+{
+    height: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFBD44;
+}
+
+.check_icon
+{
+    height: 100px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFBD44;
+}
