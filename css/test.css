@@ -427,8 +427,7 @@ input{
 .vakantie_block
 {
     height: auto;
-    width: 100%;
-    background-color: bisque;
+    width: 100%;    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -437,8 +436,8 @@ input{
 
 
 .hr1{    
-    width: 1687px;
-    border-style: 1px solid red;
+    width: 1620px;
+    border-style: 1px;
 }
 
 
@@ -447,12 +446,16 @@ input{
     width: 100%;
     border-style: 15px solid red;
 }
+.hr3{    
+    width: 1000px;
+    border-style: 15px;
+    margin-bottom: 30px;
+}
 
 .vakantie_block2
 {
-    height: 1500px;
-    width: 100%;
-    background-color: plum;
+    height: auto;
+    width: 100%;   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -479,19 +482,27 @@ input{
 
 .vakantie_block_recht
 {
-    height: 1500px;
+    height: 1400px;
     width: 65%;
     display: flex;
     flex-direction: column;
-    background-color: purple;  
+    
 }
 
-.vakantie-row{
-    height: 1400px;
+.vakantie_row
+{
+    height: 600px;
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: yellow;
+    
+}
+.vakantie_row2{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .foto_vakantie{
@@ -499,30 +510,69 @@ input{
     width: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;    
     align-items: center;   
-    background-color: #2196F3;
+    
 }
 
 .ft_vakantie1
 {
     margin-top: 50px;    
     height: 500px;
-    width: 500px;
+    width: 500px;   
     background-image: url(/img/boekhuis.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
+.ft_vakantie2
+{
+    margin-top: 50px;    
+    height: 500px;
+    width: 500px;   
+    background-image: url(/img/francehuisjpg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 .rating_block
 {
     height: 65px;
     width: 250px;
+    margin-left: 60px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    flex-direction: row;  
+    margin-top: 30px;   
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+.rating{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
     display: flex;
     flex-direction: row;
-   
     align-items: center;
+    justify-content: center;    
+    height: 40px;
+    width: 40px;
+    color: #ffffff;
     background-color: #2196F3;
+}
+
+.recenties
+{
+    height: 40px;
+    width: 100px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    
 }
 
 
@@ -653,30 +703,26 @@ i{
     display: flex;
     flex-direction: column;
     align-items: center;    
-    background-color: red;
+    
 }
 
 .landencheckbox
 {
     display: flex;
-    flex-direction: row;
-    height: 600px;
-    width: 70%;
-    background-color: purple;
+    flex-direction: column;
+    height: 800px;
+    width: 70%;    
 }
-.rating{
-    height: 40px;
-    width: 70px;
-    background-color: #FFBD44;
-}
+
 
 .plaatsen
 {
+    margin-top: 5px;
     height: 100px;
     width: 400px;
     display: flex;
     flex-direction: column;
-    background-color: #FFBD44;
+   
 }
 .plaatsen-nederland
 {
@@ -696,10 +742,13 @@ i{
     flex-direction: row;
 }
 .hotel_name_block{
-    height: 500px;
+    height: 400px;
     width: 40%;
     margin-left: 50px;
-    background-color: red;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;  
+    
 }
 
 .hotel-name2{
@@ -709,22 +758,265 @@ i{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #2196F3;    
+    background-color: #FFBD44;    
+}
+
+.opties-plaatsen{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
 }
 .hotel_expertiese
 {
     height: 100px;
     width: 50%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    background-color: #FFBD44;
+    
 }
 
+.plaatsen
+{
+    height: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.hotel_name1
+{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+h3{
+   
+    height: 40px;
+    width: 220px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    display: flex;
+    font-size: 17px;    
+    flex-direction: row;
+    align-items: center;
+    color: black;
+   
+}
+
+.fa-star
+{
+    margin-right: -3px;
+}
+.stars
+{
+    height: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    color: #FFBD44;
+    align-items: center;
+   
+    
+}
+.place
+{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A8A8A8;
+}
+.flag-country1
+{
+    height: 30px;
+    width: 30px;    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/img/spain.png);
+}
+.flag-country2
+{
+    height: 30px;
+    width: 30px;    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/img/france.png);
+}
+.place-name
+{
+    height: 30px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+   
+}
+
+h4
+{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h2{
+    margin-left: 30px;
+    height: 40px;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    display: flex;
+    font-size: 10px;    
+    flex-direction: row;
+    align-items: center;
+    color: #5BB9EE;
+}
 .check_icon
+{
+    height: 100px;
+    width: 5%;
+    display: flex;
+    color: darkgreen;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+}
+
+.check_icon2
 {
     height: 100px;
     width: 20%;
     display: flex;
     flex-direction: column;
+   
+}
+
+.check_icon3
+{
+    margin-left: 25px;
+    height: 100px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.hotel_expertiese2
+{
+   
+    height: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+i{
+    margin-top: 2px;
+}
+.check_icon3
+{
+    height: 100px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.next_page
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+    height: 200px;
+    width: 100%;
+    
+}
+
+.next_page_2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;   
+}
+
+.page_1
+{
+    margin-right: 20px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
     background-color: #FFBD44;
 }
+.page_2
+{
+    margin-right: 20px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    background-color: #FFBD44;
+}
+.page_3
+{
+    margin-right: 20px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    background-color: #FFBD44;
+}
+.page_4
+{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    background-color: #FFBD44;
+}
+
+.arrow-right
+{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;    width: 50px;
+    
+}
+
+
