@@ -43,7 +43,12 @@
             <div class="mini-info-text1"><a>Reisgezelschap</a></div>
             <div class="input-stroke"></div>
             <div class="mini-info-text2"><a>Alle landen</a></div>
-            <div class="input-stroke"></div>
+            <select class="input-stroke">
+                <option value="">Select An Option</option>
+                <option value="first">Spain</option>
+                <option value="second">France</option>
+
+            </select>
             <div class="mini-info-text3"><a>Vertrek datum</a></div>
             <div class="input-stroke"></div>
             <div class="mini-info-text4"><a>Vervoerstype</a></div>
